@@ -6,7 +6,7 @@ function cryo(props) {
   var model = props.model;
 
   var link = 'http://google.com';
-  var linkText = model.name;
+  var linkText = model.id;
 
   return commonPackageTemplate(model, link, linkText);
 }
